@@ -131,7 +131,7 @@ function deleteFile(name){
                     console.error('Error deleting directory:', err.message);
                     return;
                 }
-                console.log(`📁 Directory deleted: ${name}`)
+                console.log(`Directory deleted: ${name}`)
             })
         }else{
             fs.unlink(targetPath , (err)=>{
